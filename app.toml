@@ -1,0 +1,11 @@
+name = "my-shopify-app"  # The name of your app
+app_url = "https://your-app-url.com"  # The public URL for your app
+scopes = ["read_products", "write_orders", "read_customers"]  # The permissions your app needs
+api_version = "2024-10"  # The Shopify API version your app uses
+redirect_uri = "https://your-app-url.com/auth/callback"  # OAuth redirect URL
+
+# Optional: If you're using a specific app bridge framework
+app_bridge = true
+
+# The environment your app runs in (dev, production, etc.)
+environment = "development"  # Change to "production" when deploying to live store
